@@ -1,0 +1,59 @@
+{
+  "name": "@namelynpm/eslint-config-namely",
+  "version": "1.0.0",
+  "description": "Namely's ESLint config",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "check-prettier-conflicts": "eslint --print-config . | eslint-config-prettier-check"
+  },
+  "dependencies": {
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-config-prettier": "^4.0.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.13.0",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-jest": "^22.2.2",
+    "eslint-plugin-jsx-a11y": "^6.2.1",
+    "eslint-plugin-promise": "^4.0.1",
+    "eslint-plugin-react": "^7.12.4",
+    "eslint-plugin-react-hooks": "^1.0.1",
+    "husky": "^1.3.1",
+    "prettier": "^1.16.4"
+  },
+  "peerDependencies": {
+    "eslint": "^5.13.0",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-jest": "^22.2.2",
+    "eslint-plugin-jsx-a11y": "^6.2.1",
+    "eslint-plugin-promise": "^4.0.1",
+    "eslint-plugin-react": "^7.12.4",
+    "eslint-plugin-react-hooks": "^1.0.1"
+  },
+  "husky": {
+    "hooks": {
+      "post-checkout": "node ./scripts/dep-checker.js",
+      "post-commit": "node ./scripts/prettify.js",
+      "post-merge": "node ./scripts/dep-checker.js",
+      "post-rewrite": "node ./scripts/dep-checker.js"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/namely/eslint-config-namely.git"
+  },
+  "keywords": [
+    "eslint",
+    "lint",
+    "config",
+    "javascript"
+  ],
+  "author": "Namely",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/namely/eslint-config-namely/issues"
+  },
+  "homepage": "https://github.com/namely/eslint-config-namely#readme"
+}
