@@ -1,11 +1,10 @@
 module.exports = {
   plugins: ['import'],
-  extends: ['plugin:import/errors', 'plugin:import/warnings'],
+  extends: ['plugin:import/recommended'],
   rules: {
-    'import/extensions': 'off',
-    'import/no-dynamic-require': 'off',
+    'import/extensions': ['error', 'always', { js: 'never' }],
+    'import/named': 'off',
     'import/no-extraneous-dependencies': 'off',
-    'import/no-unresolved': 'error',
     'import/prefer-default-export': 'off',
   },
   settings: {
