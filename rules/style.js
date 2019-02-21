@@ -3,6 +3,7 @@ module.exports = {
   rules: {
     'func-names': 'error',
     'linebreak-style': 'off',
+    'lines-between-class-members': ['error', 'always', { exceptAfterSingleLine: true }],
     'new-cap': 'off',
     'no-mixed-operators': 'off',
     'no-nested-ternary': 'off',
