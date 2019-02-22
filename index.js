@@ -1,3 +1,5 @@
+const { resolve } = require;
+
 module.exports = {
   parser: 'babel-eslint',
   parserOptions: {
@@ -10,7 +12,7 @@ module.exports = {
     jest: true,
   },
   extends: [
-    'airbnb',
+    resolve('eslint-config-airbnb'),
     './rules/best-practices.js',
     './rules/es6.js',
     './rules/plugin-flowtype.js',
