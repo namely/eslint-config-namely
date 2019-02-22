@@ -2,6 +2,7 @@ module.exports = {
   plugins: ['react'],
   rules: {
     'react/default-props-match-prop-types': 'off',
+    'react/destructuring-assignment': 'off',
     'react/jsx-closing-bracket-location': 'off',
     'react/jsx-curly-brace-presence': 'off',
     'react/jsx-curly-spacing': 'off',
