@@ -2,6 +2,12 @@
 
 *Note: `eslint-config-namely` adheres to [semantic versioning](https://semver.org/).*
 
+## 2.1.0 (Feb 22, 2019)
+
+- changed: set `assert` option of `jsx-a11y/label-has-associated-control` to `either`
+- changed: set `exceptAfterSingleLine` option of `lines-between-class-members` to `true`
+- disabled: `react/destructuring-assignment`
+
 ## 2.0.0 (Feb 19, 2019)
 
 - [breaking] enabled: `import/named`
