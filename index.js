@@ -21,6 +21,7 @@ module.exports = {
     './rules/plugin-jsx-a11y.js',
     './rules/plugin-promise.js',
     './rules/plugin-react.js',
+    './rules/plugin-react-hooks.js',
     './rules/style.js',
   ],
 };
