@@ -2,6 +2,10 @@
 
 *Note: `eslint-config-namely` adheres to [semantic versioning](https://semver.org/).*
 
+## 3.0.0 (Mar 18, 2019)
+
+- [breaking] enabled: `react-hooks/rules-of-hooks` and `react-hooks/exhaustive-deps`
+
 ## 2.1.0 (Feb 22, 2019)
 
 - changed: set `assert` option of `jsx-a11y/label-has-associated-control` to `either`

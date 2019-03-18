@@ -1,6 +1,6 @@
 {
   "name": "@namely/eslint-config-namely",
-  "version": "2.1.0",
+  "version": "3.0.0",
   "description": "Namely's ESLint config",
   "main": "index.js",
   "scripts": {
