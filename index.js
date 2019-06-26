@@ -15,7 +15,6 @@ module.exports = {
     resolve('eslint-config-airbnb'),
     './rules/best-practices.js',
     './rules/es6.js',
-    './rules/plugin-flowtype.js',
     './rules/plugin-import.js',
     './rules/plugin-jest.js',
     './rules/plugin-jsx-a11y.js',
