@@ -2,6 +2,10 @@
 
 *Note: `eslint-config-namely` adheres to [semantic versioning](https://semver.org/).*
 
+## 3.1.0 (Jun 26, 2019)
+
+- removed: `eslint-plugin-flowtype`
+
 ## 3.0.0 (Mar 18, 2019)
 
 - [breaking] enabled: `react-hooks/rules-of-hooks` and `react-hooks/exhaustive-deps`
