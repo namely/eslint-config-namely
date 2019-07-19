@@ -12,6 +12,7 @@ module.exports = {
     'react/jsx-indent-props': 'off',
     'react/jsx-indent': 'off',
     'react/jsx-sort-default-props': 'error',
+    'react/jsx-sort-props': ['error', { reservedFirst: false }],
     'react/jsx-space-before-closing': 'off',
     'react/jsx-tag-spacing': 'off',
     'react/no-multi-comp': 'off',
