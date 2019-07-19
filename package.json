@@ -4,8 +4,9 @@
   "description": "Namely's ESLint config",
   "main": "index.js",
   "scripts": {
+    "check-prettier-conflicts": "eslint --print-config . | eslint-config-prettier-check",
     "lint": "eslint .",
-    "check-prettier-conflicts": "eslint --print-config . | eslint-config-prettier-check"
+    "pretty-quick": "pretty-quick"
   },
   "dependencies": {
     "eslint-config-airbnb": "^17.1.0",
@@ -21,7 +22,8 @@
     "eslint-plugin-react": "^7.12.4",
     "eslint-plugin-react-hooks": "^1.5.1",
     "husky": "^3.0.1",
-    "prettier": "^1.16.4"
+    "prettier": "^1.16.4",
+    "pretty-quick": "^1.11.1"
   },
   "peerDependencies": {
     "eslint": "^6.0.1",
@@ -35,9 +37,9 @@
   "husky": {
     "hooks": {
       "post-checkout": "node ./scripts/dep-checker.js",
-      "post-commit": "node ./scripts/prettify.js",
       "post-merge": "node ./scripts/dep-checker.js",
-      "post-rewrite": "node ./scripts/dep-checker.js"
+      "post-rewrite": "node ./scripts/dep-checker.js",
+      "pre-commit": "pretty-quick --staged"
     }
   },
   "repository": {
