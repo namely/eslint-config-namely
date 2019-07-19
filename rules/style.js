@@ -9,5 +9,6 @@ module.exports = {
     'no-nested-ternary': 'off',
     'no-plusplus': 'off',
     'no-underscore-dangle': 'off',
+    'sort-imports': ['error', { ignoreDeclarationSort: true }],
   },
 };
