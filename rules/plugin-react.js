@@ -8,16 +8,12 @@ module.exports = {
     'react/jsx-equals-spacing': 'off',
     'react/jsx-filename-extension': ['error', { extensions: ['.js'] }],
     'react/jsx-first-prop-new-line': 'off',
+    'react/jsx-fragments': 'error',
     'react/jsx-indent-props': 'off',
     'react/jsx-indent': 'off',
     'react/jsx-space-before-closing': 'off',
     'react/jsx-tag-spacing': 'off',
     'react/no-multi-comp': 'off',
-    'react/sort-prop-types': [
-      'warn',
-      {
-        requiredFirst: true,
-      },
-    ],
+    'react/sort-prop-types': ['warn', { requiredFirst: true }],
   },
 };
