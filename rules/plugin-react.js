@@ -16,6 +16,6 @@ module.exports = {
     'react/jsx-space-before-closing': 'off',
     'react/jsx-tag-spacing': 'off',
     'react/no-multi-comp': 'off',
-    'react/sort-prop-types': ['warn', { requiredFirst: true }],
+    'react/sort-prop-types': ['error', { requiredFirst: true }],
   },
 };
