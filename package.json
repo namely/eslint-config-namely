@@ -4,7 +4,7 @@
   "description": "Namely's ESLint config",
   "main": "index.js",
   "scripts": {
-    "check-prettier-conflicts": "eslint --print-config . | eslint-config-prettier-check",
+    "check-prettier-conflicts": "eslint --print-config *.js | eslint-config-prettier-check",
     "lint": "eslint .",
     "pretty-quick": "pretty-quick",
     "print-config": "eslint --print-config *.js"
