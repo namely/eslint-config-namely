@@ -4,7 +4,6 @@ module.exports = {
     'react/default-props-match-prop-types': 'off',
     'react/destructuring-assignment': 'off',
     'react/jsx-closing-bracket-location': 'off',
-    'react/jsx-curly-brace-presence': 'off',
     'react/jsx-curly-spacing': 'off',
     'react/jsx-equals-spacing': 'off',
     'react/jsx-filename-extension': ['error', { extensions: ['.js'] }],
