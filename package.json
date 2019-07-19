@@ -6,7 +6,8 @@
   "scripts": {
     "check-prettier-conflicts": "eslint --print-config . | eslint-config-prettier-check",
     "lint": "eslint .",
-    "pretty-quick": "pretty-quick"
+    "pretty-quick": "pretty-quick",
+    "print-config": "eslint --print-config *.js"
   },
   "dependencies": {
     "eslint-config-airbnb": "^17.1.0",
