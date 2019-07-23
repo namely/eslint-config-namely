@@ -9,6 +9,7 @@ module.exports = {
   },
   settings: {
     'import/resolver': {
+      node: {},
       webpack: {
         config: 'webpack.config.common.js',
       },

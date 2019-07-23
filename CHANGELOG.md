@@ -1,6 +1,18 @@
 # Changelog
 
-*Note: `eslint-config-namely` adheres to [semantic versioning](https://semver.org/).*
+_Note: `eslint-config-namely` adheres to [semantic versioning](https://semver.org/)._
+
+## 4.0.0 (Jul 22, 2019)
+
+- [breaking] enabled: react/jsx-sort-props rule
+- [breaking] enabled: react/jsx-sort-default-props rule
+- [breaking] enabled: react/jsx-fragments rule
+- [breaking] enabled: sort-imports rule
+- [breaking] enabled: react/jsx-curly-brace-presence rule
+- [breaking] enabled: jest/no-export rule
+- [breaking] changed: `react-hooks/exhaustive-deps` and `react/sort-prop-types` are now errors instead of warnings
+- [breaking] upgraded ESLint to 6.0.1
+- upgraded all other dependencies to latest versions
 
 ## 3.1.0 (Jun 26, 2019)
 
