@@ -1,6 +1,6 @@
 {
   "name": "@namely/eslint-config-namely",
-  "version": "4.0.0",
+  "version": "5.0.0",
   "description": "Namely's ESLint config",
   "main": "index.js",
   "scripts": {
@@ -14,6 +14,8 @@
     "eslint-config-prettier": "^6.0.0"
   },
   "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^1.13.0",
+    "@typescript-eslint/parser": "^1.13.0",
     "babel-eslint": "^10.0.1",
     "eslint": "^6.0.1",
     "eslint-plugin-import": "^2.16.0",
@@ -27,6 +29,8 @@
     "pretty-quick": "^1.11.1"
   },
   "peerDependencies": {
+    "@typescript-eslint/eslint-plugin": "^1.13.0",
+    "@typescript-eslint/parser": "^1.13.0",
     "eslint": "^6.0.1",
     "eslint-plugin-import": "^2.16.0",
     "eslint-plugin-jest": "^22.4.1",

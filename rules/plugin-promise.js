@@ -7,7 +7,7 @@ module.exports = {
     'promise/no-callback-in-promise': 'off',
     'promise/no-native': 'off',
     'promise/no-promise-in-callback': 'off',
-    'promise/param-names': 'error',
+    'promise/param-names': 'warn',
     'promise/valid-params': 'off',
   },
 };

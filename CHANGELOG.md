@@ -2,6 +2,22 @@
 
 _Note: `eslint-config-namely` adheres to [semantic versioning](https://semver.org/)._
 
+## 5.0.0 (Jul 27, 2019)
+
+- [breaking] changed: the options for `import/order` were changed
+- changed: the following rules were changed from `error` to `warn`:
+  - `import/extensions`
+  - `jest/consistent-test-it`
+  - `promise/param-names`
+  - `react/jsx-fragments`
+  - `react/jsx-sort-default-props`
+  - `react/jsx-sort-props`
+  - `react/sort-prop-types`
+  - `lines-between-class-members`
+  - `sort-imports`
+- disabled: `jsx-a11y/label-has-associated-control`
+- added support for Typescript
+
 ## 4.0.0 (Jul 22, 2019)
 
 - [breaking] enabled: react/jsx-sort-props rule
