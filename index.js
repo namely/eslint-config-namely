@@ -23,4 +23,11 @@ module.exports = {
     './rules/plugin-react-hooks.js',
     './rules/style.js',
   ],
+  overrides: [
+    {
+      files: ['*.{ts,tsx}'],
+      parser: '@typescript-eslint/parser',
+      extends: ['./rules/typescript.js'],
+    },
+  ],
 };
