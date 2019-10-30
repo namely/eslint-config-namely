@@ -2,6 +2,15 @@
 
 _Note: `eslint-config-namely` adheres to [semantic versioning](https://semver.org/)._
 
+## 6.0.0 (Oct 30, 2019)
+
+- [breaking]: upgraded `eslint` to 6.6.0
+- [breaking]: upgraded `eslint-config-airbnb` to 18.0.1
+- [breaking]: upgraded `eslint-config-prettier` to 6.5.0
+- [breaking]: upgraded `@typescript-eslint/eslint-plugin` to 2.6.0
+- [breaking]: enabled rules for TypeScript files
+- upgraded all dependencies to latest versions
+
 ## 5.0.0 (Jul 27, 2019)
 
 - [breaking] changed: the options for `import/order` were changed
