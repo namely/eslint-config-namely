@@ -2,6 +2,13 @@
 
 _Note: `eslint-config-namely` adheres to [semantic versioning](https://semver.org/)._
 
+## 7.0.0 (Jul, 23 2020)
+
+- [breaking]: enabled @typescript-eslint/array-type rule
+- [breaking]: enabled @typescript-eslint/consistent-type-assertions rule
+- [breaking]: enabled @typescript-eslint/no-empty-interface rule
+- [breaking]: enabled @typescript-eslint/unified-signatures rule
+
 ## 6.0.0 (Oct 30, 2019)
 
 - [breaking]: upgraded `eslint` to 6.6.0
