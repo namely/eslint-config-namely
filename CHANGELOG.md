@@ -2,7 +2,13 @@
 
 _Note: `eslint-config-namely` adheres to [semantic versioning](https://semver.org/)._
 
-## 7.0.0 (Jul, 23 2020)
+## 8.0.0 (Dec 6, 2021)
+
+- [breaking]: use @typescript-eslint instead of babel-eslint
+- update dependencies
+- add an .nvmrc
+
+## 7.0.0 (Jul 23, 2020)
 
 - [breaking]: enabled @typescript-eslint/array-type rule
 - [breaking]: enabled @typescript-eslint/consistent-type-assertions rule

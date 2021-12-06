@@ -1,6 +1,6 @@
 module.exports = {
   plugins: ['@typescript-eslint'],
-  extends: ['plugin:@typescript-eslint/recommended', 'prettier/@typescript-eslint'],
+  extends: ['plugin:@typescript-eslint/recommended'],
   rules: {
     '@typescript-eslint/array-type': [
       'error',

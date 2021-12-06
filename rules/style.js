@@ -1,5 +1,5 @@
 module.exports = {
-  extends: ['prettier', 'prettier/react'],
+  extends: ['prettier'],
   rules: {
     'func-names': 'error',
     'linebreak-style': 'off',
