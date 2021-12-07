@@ -22,4 +22,8 @@ npm install --dev @namely/eslint-config-namely <peer-dependency-1> <peer-depende
 
 Add `"extends": "@namely/eslint-config-namely"` to your `.eslintrc` config file.
 
+## Publishing new versions
+
+Simply cut a new release within Github and a Github Actions workflow will publish to Github Packages. Before doing so, ensure that the `version` field of package.json has been updated and use that version as a tag for the release.
+
 ## [License](./LICENSE)

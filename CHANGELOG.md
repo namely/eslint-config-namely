@@ -2,7 +2,12 @@
 
 _Note: `eslint-config-namely` adheres to [semantic versioning](https://semver.org/)._
 
-## 7.0.0 (Jul, 23 2020)
+## 7.0.1 (Dec 7, 2021)
+
+- declare babel-eslint as a peer dependency
+- add a github actions workflow to streamline publishing
+
+## 7.0.0 (Jul 23, 2020)
 
 - [breaking]: enabled @typescript-eslint/array-type rule
 - [breaking]: enabled @typescript-eslint/consistent-type-assertions rule
