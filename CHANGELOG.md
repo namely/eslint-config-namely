@@ -2,11 +2,17 @@
 
 _Note: `eslint-config-namely` adheres to [semantic versioning](https://semver.org/)._
 
-## 9.0.0 (Dec 6, 2021)
+## 9.0.0 (Dec 8, 2021)
 
-- [breaking]: use @typescript-eslint instead of babel-eslint
-- override disabled react/require-default-props
-- updated dependencies
+- [breaking]: peer dep upgrade: @typescript-eslint/eslint-plugin
+- [breaking]: peer dep upgrade: @typescript-eslint/parser
+- [breaking]: peer dep upgrade: eslint-plugin-jsx-a11y
+- [breaking]: peer dep upgrade: eslint-plugin-jsx-promise
+- [breaking]: peer dep upgrade: eslint-plugin-jsx-react
+- [breaking]: peer dep upgrade: eslint-plugin-jsx-react-hooks
+- override to disable react/require-default-props
+- override to disable react/function-component-definition
+- updated internal dependencies
 - add an .nvmrc
 
 ## 8.0.0 (Dec 7, 2021)
