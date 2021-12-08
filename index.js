@@ -1,7 +1,7 @@
 const { resolve } = require;
 
 module.exports = {
-  parser: '@typescript-eslint/parser',
+  parser: '@babel/eslint-parser',
   parserOptions: {
     ecmaVersion: 2018,
     sourceType: 'module',
@@ -26,6 +26,7 @@ module.exports = {
   overrides: [
     {
       files: ['*.{ts,tsx}'],
+      parser: '@typescript-eslint/parser',
       extends: ['./rules/typescript.js'],
     },
   ],

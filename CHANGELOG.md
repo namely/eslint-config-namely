@@ -2,12 +2,22 @@
 
 _Note: `eslint-config-namely` adheres to [semantic versioning](https://semver.org/)._
 
-## 8.0.0 (Dec 6, 2021)
+## 9.0.0 (Dec 6, 2021)
 
 - [breaking]: use @typescript-eslint instead of babel-eslint
 - override disabled react/require-default-props
 - updated dependencies
 - add an .nvmrc
+
+## 8.0.0 (Dec 7, 2021)
+
+- [breaking]: use @babel/eslint-parser instead of no longer maintained babel-eslint
+- [breaking]: upgrade eslint from major version 6 to 7
+
+## 7.0.1 (Dec 7, 2021)
+
+- declare babel-eslint as a peer dependency
+- add a github actions workflow to streamline publishing
 
 ## 7.0.0 (Jul 23, 2020)
 
