@@ -6,4 +6,10 @@ module.exports = {
     'jest/expect-expect': 'off',
     'jest/no-export': 'error',
   },
+  // https://github.com/jest-community/eslint-plugin-jest/issues/686#issuecomment-739151588
+  settings: {
+    jest: {
+      version: 'latest',
+    },
+  },
 };

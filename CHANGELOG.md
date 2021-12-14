@@ -2,6 +2,22 @@
 
 _Note: `eslint-config-namely` adheres to [semantic versioning](https://semver.org/)._
 
+## 9.0.0 (Dec 8, 2021)
+
+- [breaking]: peer dep upgrade: @typescript-eslint/eslint-plugin
+- [breaking]: peer dep upgrade: @typescript-eslint/parser
+- [breaking]: peer dep upgrade: eslint-plugin-import
+- [breaking]: peer dep upgrade: eslint-plugin-jest
+- [breaking]: peer dep upgrade: eslint-plugin-jsx-a11y
+- [breaking]: peer dep upgrade: eslint-plugin-promise
+- [breaking]: peer dep upgrade: eslint-plugin-react
+- [breaking]: peer dep upgrade: eslint-plugin-react-hooks
+- allow v8 of eslint in addition to v7. note that some plugins may not work properly with it yet.
+- override to disable react/require-default-props
+- override to disable react/function-component-definition
+- updated internal dependencies
+- add an .nvmrc
+
 ## 8.0.0 (Dec 7, 2021)
 
 - [breaking]: use @babel/eslint-parser instead of no longer maintained babel-eslint
