@@ -1,4 +1,7 @@
 # eslint-config-namely
+ 
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/12d3aaac8de745ffb2239389e3424562)](https://app.codacy.com/gh/namely/eslint-config-namely/dashboard)
+[![Codacy Badge](https://app.codacy.com/project/badge/Coverage/12d3aaac8de745ffb2239389e3424562)](https://app.codacy.com/gh/namely/eslint-config-namely/dashboard)
 
 Namely's shared ESLint config (based on [Airbnb's config](https://github.com/airbnb/javascript/tree/master/packages/eslint-config-airbnb)).
 
